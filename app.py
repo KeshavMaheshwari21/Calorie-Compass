@@ -47,7 +47,7 @@ def get_latest_entries(cursor):
 conn, cursor = init_db()
 
 # Title of the app, centered with inline style
-st.markdown('<h1 style="text-align: center;">Calorie Burn Prediction</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align: center;">Calorie-Compass</h1>', unsafe_allow_html=True)
 
 # Load and display an image in the center
 image = Image.open('Assets/calorie.jpg')  # Make sure to update with your image path
