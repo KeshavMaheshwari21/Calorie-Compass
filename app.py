@@ -51,7 +51,7 @@ st.markdown('<h1 style="text-align: center;">Calorie Burn Prediction</h1>', unsa
 
 # Load and display an image in the center
 image = Image.open('Assets/calorie.jpg')  # Make sure to update with your image path
-resized_image = image.resize((180, 250))  # Resize image to 250x250 pixels
+resized_image = image.resize((250, 180))  # Resize image to 250x250 pixels
 st.image(resized_image, use_column_width=False, caption='Predict your Calorie Burn', output_format='PNG')
 
 # Input fields for the user to provide input data, wrapped in centered subheading
